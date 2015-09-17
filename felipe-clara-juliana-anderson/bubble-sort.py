@@ -8,6 +8,6 @@ for i in range(0, N - 2, 1): #a posição começa no zero e vai a 18, de um em u
             tmp=lista[i] #procedimento usado para trocar os elementos de lugar
             lista[i]=lista[j] #procedimento usado para trocar os elementos de lugar
             lista[j]=tmp #procedimento usado para trocar os elementos de lugar
-print("Lista crescente:", lista) #imprime a lista crescente, com os números em ordem crescente
-print("menores numeros", lista[0:5])
-print("maiores numeros", lista[N-5:N])
+print("Lista em ordem crescente:", lista) #imprime a lista crescente, com os números em ordem crescente
+print("Cinco menores numeros:", lista[0:5]) #imprime os cinco menores números em da lista em ordem crecente
+print("Cinco maiores numeros:", lista[N-5:N]) #imprime os conco maires números da lista em ordem crescente
